@@ -1,0 +1,211 @@
+:root {
+    /*
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: rgb(255, 255, 255);
+    --font-color: rgb(155, 187, 224);
+    --bg-color: rgba(155, 187, 224, 0);
+    --placeholder-color: rgb(255, 255, 255);
+    */
+    /*
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: rgb(136, 115, 115);
+    --font-color: rgb(136, 115, 115);
+    --bg-color: rgba(155, 187, 224, 0);
+    --placeholder-color: rgb(136, 115, 115);
+    */
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: rgb(255, 255, 255);
+    --font-color: rgb(255, 255, 255);
+    --bg-color: rgba(155, 187, 224, 0);
+    --placeholder-color: rgb(255, 255, 255);
+  }
+
+  #slide4  *{
+    font-family: "Raleway", sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .title-contact {
+    position: absolute;
+    text-align: center;
+    margin: 8% 37%;
+    text-transform: uppercase;
+    color: var(--placeholder-color);
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+  .tell {
+    position: absolute;
+    text-align: center;
+    margin: 13% -15%;
+    text-transform: uppercase;
+    color: var(--placeholder-color);
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+
+  #contact-form {
+    width: 600px;
+    position: absolute;
+    margin: 18% 25%;
+  }
+
+  .contact-input,
+  textarea,
+  button,
+  #submit {
+    font-size: 16px;
+    border-radius: 0;
+    border: 3px solid var(--font-color);
+    background-color: rgba(37, 79, 126, 0.144);
+    margin: 0;
+    width: 102.5% !important;
+    padding: 5px 20px;
+    outline: none;
+  }
+
+  .contact-input::placeholder,
+  textarea::placeholder,
+  #submit {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: var(--secondary-color);
+  }
+
+  .contact-input {
+    border-bottom: none;
+    height: 40px;
+  }
+
+  textarea {
+    resize: none;
+    height: 200px;
+    padding-top: 20px;
+  }
+
+  .contact-input:hover,
+  textarea:hover {
+    background-color: var(--font-color);
+    color: var(--primary-color);
+  }
+
+  .contact-input:hover::placeholder,
+  textarea:hover::placeholder {
+    color: rgb(136, 115, 115);
+  }
+
+  #submit {
+    margin-top: -5px;
+    color: var(--secondary-color);
+    width: 102.5%;
+    height: 45px;
+    border-bottom: 3px solid var(--font-color);
+    cursor: pointer;
+  }
+
+  #submit:hover {
+    color: rgb(136, 115, 115);
+    background-color: var(--font-color);
+    outline: none;
+  }
+
+  #submit:active {
+    background-color: var(--placeholder-color);
+    color: var(--font-color);
+  }
+
+  @media only screen and (max-width: 630px) {
+    #contact-form {
+      width: 400px;
+      position: absolute;
+      margin: 45% 20%;
+    }
+    .title {
+      position: absolute;
+      text-align: center;
+      margin: 20% 21%;
+      text-transform: uppercase;
+      color: var(--placeholder-color);
+      letter-spacing: 5px;
+      font-size: 30px;
+    }
+    .tell {
+      position: absolute;
+      text-align: center;
+      margin: 35% -10%;
+      text-transform: uppercase;
+      color: var(--placeholder-color);
+      letter-spacing: 5px;
+      font-size: 13px;
+    }
+    .contact-input,
+    textarea {
+      width: 300px;
+      font-size: 13px;
+    }
+    #submit,
+    .title-contact {
+      width: 300px;
+    }
+    #error,
+    #success-msg {
+      width: 280px;
+      margin: 2px auto;
+      font-size: 13px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #contact-form {
+      width: 292px;
+      position: absolute;
+      margin: 50% 8%;
+    }
+    .title {
+      position: absolute;
+      text-align: center;
+      margin: 23% 20%;
+      text-transform: uppercase;
+      color: var(--placeholder-color);
+      letter-spacing: 2px;
+      font-size: 30px;
+    }
+    .tell {
+      position: absolute;
+      text-align: center;
+      margin: 40% -10%;
+      text-transform: uppercase;
+      color: var(--placeholder-color);
+      letter-spacing: 5px;
+      font-size: 13px;
+    }
+    .contact-input,
+    textarea,
+    #submit {
+      width: 400px;
+      font-size: 13px;
+    }
+    /*
+    #submit,
+    h1 {
+      width: 292px;
+    }
+    h1 {
+      font-size: 18px;
+    }
+    */
+  }
+  #error,
+  #success-msg {
+    text-align: center;
+  }
+
+  #success-msg {
+    transition-delay: 3s;
+  }
+  /* svg css code for mail animation
+
+  #c {
+    margin-top: 100px;
+  }
+  */
