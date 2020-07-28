@@ -8,7 +8,7 @@ app.controller('mainCtrl', function($scope) {
         heading: "First heading"
 	},{
 		name: 'Free',
-		image: '/cubecon/pics/construction4.jpg',
+		image: '/cubecon/pics/commercial-interior-office-construction.jpg',
         text: "Second text",
         heading: "Second heading"
 	},{
