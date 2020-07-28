@@ -149,7 +149,7 @@ svg {
 }
 .slide-about-2:nth-child(1) .slide-about-2__bg {
   left: 0;
-  background-image: url("/pics/construction2.jpg");
+  background-image: url("/cubecon/pics/construction2.jpg");
 }
 .slide-about-2:nth-child(1) .slide-about-2__overlay-path {
   fill: #e99c7e;
@@ -164,7 +164,7 @@ svg {
 }
 .slide-about-2:nth-child(2) .slide-about-2__bg {
   left: -50%;
-  background-image: url("/pics/construction3.jpg");
+  background-image: url("/cubecon/pics/construction3.jpg");
 }
 .slide-about-2:nth-child(2) .slide-about-2__overlay-path {
   fill: #e1ccae;
